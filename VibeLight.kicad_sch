@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 704dec10-a4c2-4298-be85-193d9407f59f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 189.23 133.35) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 964563b4-99e1-4b3d-857d-35f5fde5aa09)
+    (property "Sheetname" "Audio Input" (at 189.23 132.6384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio_input.kicad_sch" (at 189.23 137.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VibeLight"
+        (path "/704dec10-a4c2-4298-be85-193d9407f59f" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
