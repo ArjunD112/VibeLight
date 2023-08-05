@@ -108,7 +108,7 @@
   (symbol (lib_id "SPV08A0LR5H-1:SPV08A0LR5H-1") (at 154.94 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c656705-24b3-4571-a69e-d59bb148b9cb)
-    (property "Reference" "U2" (at 160.02 92.71 0)
+    (property "Reference" "MIC1" (at 160.02 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SPV08A0LR5H-1" (at 160.02 95.25 0)
@@ -120,13 +120,13 @@
     (property "Datasheet" "" (at 154.94 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "AGND" (uuid f543f33a-f469-478c-a048-e6f907d77724))
-    (pin "OUT" (uuid acfb849e-9cca-4f8a-a906-64041f9513bb))
-    (pin "VDDA" (uuid fec1a2a4-228f-4aa7-a59b-3a0fcdafb908))
+    (pin "AGND" (uuid ce2dd469-cf36-420b-8dea-137345e3839b))
+    (pin "OUT" (uuid 04b8b419-d2fd-4b7f-88af-9a08b93202b3))
+    (pin "VDDA" (uuid 0583f272-2eed-4fb0-9149-d4552dec9cf6))
     (instances
       (project "VibeLight"
         (path "/704dec10-a4c2-4298-be85-193d9407f59f/964563b4-99e1-4b3d-857d-35f5fde5aa09/2471d6e6-9095-48a0-a82f-426dd1cde29c"
-          (reference "U2") (unit 1)
+          (reference "MIC1") (unit 1)
         )
       )
     )
