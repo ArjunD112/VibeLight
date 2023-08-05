@@ -1032,6 +1032,17 @@
     (uuid fd939ca7-37d7-40a3-9cbe-236bd5194dbf)
   )
 
+  (text "Steve Checked\n(done) Power\n(done) SHT40\n(done) OP3002\n(done) Accel\nMCU Errors: \n	Intensity Dial needs to be analog input\n	Audio Raw and Filter need to be analog inputs\n	Re-Added programming header\nMic : \n	Not enough info t give useful feedback overall\n	Recommmend moving LED to before the final filter but not certain \n	I'm guessing you don't want C9 and C12 since you'll actually want the DC component, but it's easy to short them out later so leave them in"
+    (at 25.4 31.75 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b7d65a5f-79b3-4af0-a65c-56916724647b)
+  )
+  (text "Layout notes:\nneed to add programming header\nMove intensity dial to other side b/c of analog pin locations? \nI added keepout under the BLE antenna\nSpind D2 to make routing cleaner, and the change which resistor goes where on MCU for tighter routing\nThere were a few unconnected (ratsnested) grounds that i moved around some components to resolve\nmove the battery resistor divider a bit to get via away from corner\nspun some component groups around to make layout a bit cleaner"
+    (at 20.32 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid def26643-46f8-41ec-9891-664348a5c93f)
+  )
+
   (label "SCL" (at 121.92 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1af4594c-c042-4b06-ad7b-29125a4fa708)
@@ -1839,8 +1850,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e47ffc5a-74ae-4b2d-95ef-fefacdf00310))
-    (pin "2" (uuid d3488ee4-dbb7-45da-af0c-c741c5be2e56))
-    (pin "2" (uuid d3488ee4-dbb7-45da-af0c-c741c5be2e56))
+    (pin "2" (uuid d3488ee4-dbb7-45da-af0c-c741c5be2e57))
+    (pin "2" (uuid d3488ee4-dbb7-45da-af0c-c741c5be2e57))
     (pin "3" (uuid ebfe93a6-8727-40c7-9ed4-918754c8b0fc))
     (pin "4" (uuid 9db01e3f-76bd-411e-b77d-86bfd3a1acdd))
     (pin "5" (uuid 9b29261c-fe19-4b60-b037-7bc2ea54ea96))
